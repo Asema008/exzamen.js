@@ -1,0 +1,63 @@
+
+
+.login-from{
+    width: 400px;
+    height: 400px;
+   text-align: center;
+    background-color: var(--darkgrey);
+    border-radius: 10px;
+    border: 1ppx solid var(--grey);
+    filter: blur(0.1px);
+    box-shadow: 2px 2px 12px 4px var(--grey);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+    padding-top: 15px;
+
+}
+.input {
+width: 300px;
+height: 30px;
+text-align: center;
+outline: none;
+font-size: 14px;
+}
+.paragraf{
+    padding-left: 110px;
+    font-size: 10px;
+}
+.logi1{
+    padding-bottom: 20px;
+}
+button{
+    width: 300px;
+    height: 30px;
+    background-color: green;
+    border: none;
+    color: aliceblue;
+}
+.buton{
+    width: 300px;
+    height: 30px;
+    background-color: aliceblue;
+    color: rgb(114, 114, 114);
+    font-size: 10px;
+}
+.checkbox{
+    color: green;
+    font-size: 10px;
+    padding-left: 200px;
+}
+.enter{
+    font-size: 14px;
+}
+.logo{
+    padding-bottom: 20px;
+}
+.logint{
+    text-align: center;
+    font-size: 10px;
+    width:300px;
+    height: 30px;
+}

@@ -1,0 +1,430 @@
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.wrapper {
+    width: 1440px;
+    margin: 0 auto;
+}
+
+.container {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+/* --------------------------------------- */
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 53px;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    gap: 50px;
+}
+
+.header-right {
+    display: flex;
+    gap: 30px;
+}
+
+.login {
+    width: 100px;
+    height: 35px;
+    display: flex;
+    align-items: center;
+    border-radius: 6px;
+    background: rgb(70, 163, 88);
+    color: rgb(255, 255, 255);
+    font-family: Cera Pro;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: 0%;
+    text-align: left;
+    gap: 6px;
+    border: none;
+}
+
+.menu li {
+    color: rgb(61, 61, 61);
+    font-family: Cera Pro;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0%;
+    text-align: left;
+    cursor: pointer;
+    padding-bottom: 10px;
+    transition: 3s all ease-in-out;
+}
+
+.menu li:hover {
+    font-weight: 700;
+    border-bottom: 3px solid green;
+}
+
+/* ------------------------------------ */
+.content{
+    margin-top: 100px;
+}
+.content img {
+    position: relative;
+    top: 250px;
+    left: 500px;
+}
+
+.content p {
+    position: relative;
+    color: rgb(61, 61, 61);
+    font-family: Cera Pro;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 16px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.content p:hover {
+    font-weight: 700;
+}
+
+.image1 img {
+    position: relative;
+    top: 80px;
+    left: 100px;
+}
+
+
+.card h3{
+    position: relative;
+    top: -370px;
+    left: 580px;
+    color: rgb(61, 61, 61);
+font-family: Cera Pro;
+font-size: 28px;
+font-weight: 700;
+line-height: 16px;
+letter-spacing: 0%;
+text-align: left;
+}
+
+.card span{
+    position: relative;
+    top: -350px;
+    left: 580px;
+    color: rgb(70, 163, 88);
+    font-family: Cera Pro;
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 16px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.card-img{
+    position: relative;
+    top: -90px;
+    left: 920p;
+}
+
+.card p{
+    position: relative;
+    top: -400px;
+    left: 1070px;
+    color: rgb(61, 61, 61);
+font-family: Cera Pro;
+font-size: 15px;
+font-weight: 400;
+line-height: 16px;
+letter-spacing: 0%;
+text-align: left;
+}
+
+
+.text h4{
+    position: relative;
+    top: -360px;
+    left: 580px;
+    color: rgb(61, 61, 61);
+font-family: Cera Pro;
+font-size: 15px;
+font-weight: 500;
+line-height: 16px;
+letter-spacing: 0%;
+text-align: left;
+}
+
+.text p{
+    position: relative;
+    top: -340px;
+    left:580px;
+    width: 500px;
+    color: rgb(114, 114, 114);
+font-family: Cera Pro;
+font-size: 14px;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0%;
+text-align: left;
+}
+
+.text h5{
+    position: relative;
+    top: -320px;
+    left: 580px;
+    color: rgb(61, 61, 61);
+font-family: Cera Pro;
+font-size: 15px;
+font-weight: 500;
+line-height: 16px;
+letter-spacing: 0%;
+text-align: left;
+}
+
+.tamga{
+    display: flex;
+    position: relative;
+    list-style: none;
+    gap: 10px;
+    top: -300px;
+    left: 580px;
+    color: rgb(114, 114, 114);
+font-family: Cera Pro;
+font-size: 14px;
+font-weight: 500;
+line-height: 16px;
+letter-spacing: 0%;
+
+
+}
+
+.tamga li{
+    width: 22px;
+    height: 22px;
+    box-sizing: border-box;
+    border: 1px solid rgb(70, 163, 88);
+border-radius: 50%;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.tamga li:hover{
+    color: rgb(70, 163, 88);
+}
+
+.box{
+    display: flex;
+    justify-content: end;
+    position: relative;
+    top: -290px;
+    left: -520px;
+    gap: 13px;
+}
+.box button{
+    width: 33px;
+height: 38px;
+border-radius: 29px;
+background: linear-gradient(180.00deg, rgb(70, 163, 88),rgba(70, 163, 88, 0.8) 100%);
+border: none;
+color: rgb(255, 255, 255);
+font-family: Cera Pro;
+font-size: 28px;
+font-weight: 400;
+line-height: 16px;
+letter-spacing: 0%;
+text-align: left;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.box span{
+    color: rgb(61, 61, 61);
+font-family: Cera Pro;
+font-size: 20px;
+font-weight: 400;
+line-height: 10px;
+letter-spacing: 0%;
+text-align: left;
+position: relative;
+top: 14px;
+}
+
+.btn{
+    width: 130px;
+height: 40px;
+border-radius: 6px;
+border: none;
+background: rgb(70, 163, 88);
+color: rgb(255, 255, 255);
+font-family: Cera Pro;
+font-size: 14px;
+font-weight: 700;
+line-height: 20px;
+letter-spacing: 0%;
+text-align: left;
+text-transform: uppercase;
+text-align: center;
+position: relative;
+top: -330px;
+left: 720px;
+}
+
+.box-btn{
+    display: flex;
+    justify-content: end;
+    top: -370px;
+    position: relative;
+    left: -120px;
+}
+
+
+.btn2{
+    top: -330px;
+    left: 750px;
+    position: relative;
+    width: 130px;
+    height: 40px;
+    color: rgb(70, 163, 88);
+    font-family: Cera Pro;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 20px;
+    letter-spacing: 0%;
+    text-align: left;
+    text-transform: uppercase;
+    text-align: center;
+    border: none;
+    border-radius: 6px;
+}
+
+.img-btn{
+    width: 40px;
+height: 40px;
+box-sizing: border-box;
+border: 1px solid rgb(70, 163, 88);
+border-radius: 6px;
+
+}
+
+.texts{
+    display: flex;
+    flex-wrap: wrap;
+    width: 180px;
+    gap: 8px;
+    position: relative;
+    top: -340px;
+    left: 580px;
+}
+
+.texts p{
+    color: rgb(61, 61, 61);
+    font-family: Cera Pro;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 16px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.text span{
+    color: rgb(61, 61, 61);
+    font-family: Cera Pro;
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 16px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.product{
+    display: flex;
+    gap: 10px;
+    position: relative;
+    top: -320px;
+    left: 580px;
+}
+
+.product h3{
+    color: rgb(61, 61, 61);
+font-family: Cera Pro;
+font-size: 15px;
+font-weight: 500;
+line-height: 16px;
+letter-spacing: 0%;
+text-align: left;
+}
+
+.content-image{
+    writing-mode: vertical-rl;
+    position: relative;
+    top: -470px;
+    left: -510px;
+}
+
+.content-image img{
+    width: 100px;
+height: 100px;
+}
+
+
+.about{
+    margin-top: -190px;
+}
+
+.Reviews{
+    margin-top: -220px;
+}
+.Description{
+    gap: 30px;
+    display: flex;
+    color: rgb(61, 61, 61);
+font-family: Cera Pro;
+font-size: 17px;
+font-weight: 400;
+line-height: 16px;
+letter-spacing: 0%;
+text-align: left;
+cursor: pointer;
+}
+
+.Description p:hover{
+    padding-bottom: 10px;
+    font-weight: 700;
+    color: rgb(70, 163, 88);
+    border-bottom: 1px solid rgb(70, 163, 88);
+}
+
+.t h3{
+color: rgb(61, 61, 61);
+font-family: Cera Pro;
+font-size: 14px;
+font-weight: 700;
+line-height: 24px;
+letter-spacing: 0%;
+text-align: left;
+margin-top: 20px;
+}
+
+.t p{
+    color: rgb(114, 114, 114);
+font-family: Cera Pro;
+font-size: 14px;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0%;
+text-align: left;
+margin-top: 20px
+}

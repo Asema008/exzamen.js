@@ -1,0 +1,436 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.wrapper {
+    width: 1440px;
+    margin: 0 auto;
+}
+
+.container {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+/* --------------------------------------- */
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 53px;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    gap: 50px;
+}
+
+.header-right {
+    display: flex;
+    gap: 30px;
+}
+
+.login {
+    width: 100px;
+    height: 35px;
+    display: flex;
+    align-items: center;
+    border-radius: 6px;
+    background: rgb(70, 163, 88);
+    color: rgb(255, 255, 255);
+    font-family: Cera Pro;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: 0%;
+    text-align: left;
+    gap: 6px;
+    border: none;
+}
+
+.menu li {
+    color: rgb(61, 61, 61);
+    font-family: Cera Pro;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0%;
+    text-align: left;
+    cursor: pointer;
+    padding-bottom: 10px;
+    transition: 3s all ease-in-out;
+}
+
+.menu li:hover {
+    font-weight: 700;
+    border-bottom: 3px solid green;
+}
+
+
+
+
+
+.our-products {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.product {
+    width: 260px;
+    background: linear-gradient(134.56deg, rgba(245, 245, 245, 0.5) -23.457%, rgba(245, 245, 245, 0.5) 107.508%);
+    padding: 20px;
+    position: relative;
+    margin-bottom: 5px;
+}
+
+.product img {
+    width: 220px;
+    height: 250px;
+}
+
+.product h5 {
+    color: rgb(61, 61, 61);
+    font-family: Cera Pro;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 16px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.product span {
+    color: rgb(70, 163, 88);
+    font-family: Cera Pro;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 16px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.discount {
+    padding: 5px;
+    color: #FFF;
+    background-color: rgb(70, 163, 88);
+    position: absolute;
+    left: 0px;
+    top: 30px;
+}
+
+/* sidebar */
+
+.sidebar {
+    background: linear-gradient(134.56deg, rgba(245, 245, 245, 0.5) -23.457%, rgba(245, 245, 245, 0.5) 107.508%);
+    width: 30%;
+}
+
+.sidebar h3 {
+    color: rgb(61, 61, 61);
+    font-family: Cera Pro;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 16px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+/* category */
+
+.category {
+    padding: 10px 20px;
+}
+
+.category ul li {
+    font-family: Cera Pro;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 40px;
+    letter-spacing: 0%;
+    text-align: left;
+    list-style: none;
+}
+
+.category ul li:hover {
+    color: rgb(70, 163, 88);
+}
+
+/* filter */
+.filter {
+    padding: 10px 20px;
+}
+
+#range {
+    background-color: rgb(70, 163, 88);
+    margin: 20px 0px;
+}
+
+.filter .div {
+    color: rgb(61, 61, 61);
+    font-family: Cera Pro;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 40px;
+    letter-spacing: 0%;
+    text-align: left;
+    display: block;
+    margin: 20px 0px;
+}
+
+.filter button {
+    padding: 8px 26px;
+    color: #FFF;
+    border-radius: 6px;
+    background-color: rgb(70, 163, 88);
+    margin-top: 20px;
+    border: none;
+}
+
+.slider span {
+    font-family: Cera Pro;
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 16px;
+    letter-spacing: 0%;
+    text-align: left;
+    color: rgb(70, 163, 88);
+}
+
+/* size */
+
+.size {
+    padding: 10% 20px;
+}
+
+.size-content span {
+    color: rgb(61, 61, 61);
+    font-family: Cera Pro;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 40px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+
+.flover {
+    position: absolute;
+    padding-left: 600px;
+}
+
+.text-banner {
+    padding-top: 100px;
+    padding-bottom: 20px;
+
+}
+
+.big-text {
+    font-size: 90px;
+    padding-bottom: 20px;
+}
+
+.shop-button {
+    Width: 140px;
+    Height: 40px;
+    Left: 258px;
+    background-color: rgb(70, 163, 88);
+    color: #FFF;
+    border: none;
+
+    margin-bottom: 100px;
+}
+
+.all-header {
+    list-style: none;
+    display: flex;
+    text-align: center;
+    gap: 60px;
+}
+
+.products {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 30px;
+    padding-left: 400px;
+    position: absolute;
+
+}
+
+
+
+
+.login-from {
+    width: 400px;
+    height: 400px;
+    text-align: center;
+    background-color: var(--darkgrey);
+    border-radius: 10px;
+    border: 1ppx solid var(--grey);
+    filter: blur(0.1px);
+    box-shadow: 2px 2px 12px 4px var(--grey);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+    padding-top: 15px;
+
+}
+
+.input {
+    width: 300px;
+    height: 30px;
+    text-align: center;
+    outline: none;
+    font-size: 14px;
+}
+
+.paragraf {
+    padding-left: 110px;
+    font-size: 10px;
+}
+
+.logi1 {
+    padding-bottom: 20px;
+}
+
+button {
+    width: 300px;
+    height: 30px;
+    background-color: green;
+    border: none;
+    color: aliceblue;
+}
+
+.buton {
+    width: 300px;
+    height: 30px;
+    background-color: aliceblue;
+    color: rgb(114, 114, 114);
+    font-size: 10px;
+}
+
+.checkbox {
+    color: green;
+    font-size: 10px;
+    padding-left: 200px;
+}
+
+.enter {
+    font-size: 14px;
+}
+
+.logo {
+    padding-bottom: 20px;
+}
+
+.logint {
+    text-align: center;
+    font-size: 10px;
+    width: 300px;
+    height: 30px;
+}
+
+
+
+
+
+
+
+
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+/* Кнопка */
+
+.buttons {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    
+}
+
+.buttons:hover {
+    background-color: #45a049;
+}
+
+/* Модальное окно */
+.modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 1000px;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+}
+
+.modal-content {
+
+    background-color: white;
+    padding: 20px;
+    width: 400px;
+    text-align: center;
+}
+
+.close-button {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    color: #333;
+    cursor: pointer;
+}
+
+.inpute {
+    Width: 300px;
+    Height: 50px;
+    margin-bottom: 20px;
+}
+
+.p {
+    font-size: 10px;
+    padding-left: 200px;
+    padding-bottom: 10px;
+}
+
+.social-login button {
+     background-color: #FFF;
+    color: rgb(114, 114, 114);
+    Width: 300px;
+    Height: 40px;
+    Top: 633px;
+    Left: 541px;
+    
+}
+
+.regist {
+    font-size: 15px;
+    padding-bottom: 30px;
+    padding-top: 15px;
+}
+
+.clas {
+    font-size: 10px;
+    padding-bottom: 10px;
+}
+#myWindow{
+    width: 25px;
+    height: 25px;
+    background-color: #635a5a;
+    color: black;
+    font-size: 20px;
+    margin-left: 320px;
+}
